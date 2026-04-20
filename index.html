@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PLC Expert</title>
+  
+  <!-- iOS PWA meta tags - pas de manifest -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PLC Expert">
+  <meta name="theme-color" content="#1976d2">
+  
+  <!-- Icône intégrée base64 pour iOS -->
+  <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgMTkyIj48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgcng9IjI0IiBmaWxsPSIjMTk3NmQyIi8+PHRleHQgeD0iOTYiIHk9IjExMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjcyIiBmb250LXdlaWdodD0iYm9sZCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiPlBMQzwvdGV4dD48L3N2Zz4=">
+  
+  <style>
+    body { 
+      margin: 0; 
+      font-family: -apple-system, sans-serif;
+      background: #0f172a; 
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    .box {
+      max-width: 400px;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      background: #1976d2;
+      border-radius: 20px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    h1 { color: #1976d2; margin: 0 0 10px 0; }
+    p { opacity: 0.8; margin: 0 0 20px 0; }
+    .hint {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="logo">PLC</div>
+    <h1>PLC Expert</h1>
+    <p>Assistant Automatisme Industriel</p>
+    <div class="hint">
+      <strong>iPhone :</strong><br>
+      Partager ↓ → Sur l'écran d'accueil → Ajouter
+    </div>
+  </div>
+  
+  <script>
+    // Aucun Service Worker, aucun manifest, zéro dépendance
+    console.log('PLC Expert iOS Minimal');
+  </script>
+</body>
+</html>
